@@ -2,7 +2,7 @@
 A really dumb way of managing your terraform environments.
 
 ### Usage
-Copy the shell script to your terraform directory (the same directory that holds your tfstate and tfvars files. If you have existing tfstate and tfvars files you will need to copy them to your preferred environment name:
+Copy the shell script to your terraform directory (the same directory that holds your tfstate and tfvars files). If you have existing tfstate and tfvars files you will need to copy them to your preferred environment name:
 ```
 $ mv terraform.tfstate terraform.production.tfstate
 $ mv terraform.tfvars terraform.production.tfvars
@@ -29,8 +29,8 @@ development
 Environment to switch to: 
 prod
 Setting state and variable files to use prod configurations: 
-terraform.prod.tfstate
-terraform.prod.tfvars
+terraform.production.tfstate
+terraform.production.tfvars
 Complete
 ```
 
